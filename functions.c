@@ -99,6 +99,10 @@ void update_screen(GAME * screen,CANNON * player, INVADER * alien){
 		n++;		
 	}
 
+	for(i = alien[11].poslin; i < alien[11].poslin + alien[11].lin; i++){
+		for(j = alien[11].poscol; j < alien[11].poscol + alien[11].col; j++)
+			screen->map[i][j] = 0;
+	}
 
 		
 }

@@ -1,7 +1,7 @@
 /*Rodrigo Kovalski de Araújo. GRR20183146*/
 #include "functions.h"
 
-/********FUNÇÕES PARA CRIAÇÃO E MANIPULAÇÃO DA TELA DO JOGO*********/
+/******FUNÇÕES PARA CRIAÇÃO E MANIPULAÇÃO DA TELA DO JOGO******/
 
 void create_game(GAME * screen){
 	int i,j;
